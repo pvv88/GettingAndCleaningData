@@ -1,6 +1,24 @@
 Codebook
 ========
 
+Description of variables
+------------------------
+
+-   zFiles = unzipped source files
+-   x.train = contains x\_train.txt data
+-   y.train = contains y\_train.txt data
+-   subj.train = contains subj\_train.txt data
+-   X.test = contains X\_test.txt data
+-   y.test = contains y\_test.txt
+-   subj.test = contains subject\_test.txt data
+-   data.subject = contains subj.train and subj.test data
+-   data.activity = contains y.train and y.test data
+-   data.features = contains x.train and X.test data
+-   Data = contains data.subject, data.activity, and data.features data
+-   tidydata = filtered data for mean and std measurements only
+-   tidydata2 = independent tidy data set with the average of each
+    variable for each activity and each subject
+
 Description of measurements
 ---------------------------
 
@@ -116,7 +134,7 @@ variables from the time and frequency domain.
     names.temp <- gsub("^t", "TimeDomain", names.temp)
     names(tidydata) <- names.temp
 
-### 5.From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+### 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 -   tidydata2 contains average of each variable for each activity
     and subject. This was sorted by subject and activity and written in
