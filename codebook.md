@@ -77,9 +77,9 @@ variables from the time and frequency domain.
 
 ### 2. Extracts only the measurements on the mean and standard deviation for each measurement.
 
--   dataset was filtered to data containing mean and standard deviation.
-    The result was use to create a new subset called tidydata. Tidydata
-    contains rows that has mean and standard deviation.
+-   dataset was filtered to data containing mean and standard deviation
+    and copied to a new dataset called tidydata. Tidydata contains rows
+    that contains mean and standard deviation data.
 
 <!-- -->
 
@@ -90,8 +90,8 @@ variables from the time and frequency domain.
 
 ### 3. Uses descriptive activity names to name the activities in the data set
 
--   column V1 from activity\_labels.txt was mapped to column activity of
-    tidydata to replace the column activity with V2 data.
+-   column V1 from activity\_labels.txt was mapped to column activity
+    of tidydata. Purpose is to replace the column activity with V2 data.
 
 <!-- -->
 
@@ -100,7 +100,7 @@ variables from the time and frequency domain.
 
 ### 4. Appropriately labels the data set with descriptive variable names.
 
--   tidydata was laeled properly through the use of gsub.
+-   tidydata was labeled properly through the use of gsub.
 
 <!-- -->
 
