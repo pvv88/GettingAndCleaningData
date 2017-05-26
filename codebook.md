@@ -1,8 +1,8 @@
 Codebook
 ========
 
-Description of abbreviations of measurements
---------------------------------------------
+Description of measurements
+---------------------------
 
 -   t = time
 -   f = frequency
@@ -131,5 +131,4 @@ variables from the time and frequency domain.
                 row.names = FALSE)
 
 The resulting data table has 180 rows and 68 columns consisting of 33
-Mean variables + 33 Standard deviation variables + Subject +
-ActivityName.
+Mean variables + 33 Standard deviation variables + Subject + Activity.
